@@ -9,7 +9,7 @@ header{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(beach111.jpeg);
+    background-image: url('https://wallpaper.dog/large/10733179.jpg');
     background-size: cover;
     flex-direction: column;
 }
