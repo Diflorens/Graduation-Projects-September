@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+header{
+    height: 70hv;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(backimage.jpg);
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 2rem;
+}
+header div{
+    width: 60%;
+    position: relative;
+    top: 30%;
+    left: 20%;
+}
+header div h1{
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+header div p{
+    line-height: 25px;
+    margin-bottom: 1rem;
+}
+header div button{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+.company-name, .action-call, .about{
+    background-color: antiquewhite;
+    padding: 2rem 2rem 4rem 2rem;
+}
+.company-name h2, .action-call h2, .about h2{
+    font-size: x-large;
+    margin-bottom: 2rem;
+}
+.company-name p, .action-call p, .about p{
+    line-height: 25px;
+}
+
+.services{
+    background-color: darkslategray;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.service{
+    width: 90%;
+    margin: auto;
+    background-color: antiquewhite;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.service img{
+    width: 100%;
+}
+.service h3{
+    margin: 1rem auto;
+}
+.service p{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.contact{
+    background-color: rgb(79, 79, 220);
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 0.9rem;
+}
+.action-call{
+    background-color: antiquewhite;
+    color: black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.contact h2, .about h2, .action-call h2{
+    margin-bottom: 3rem;
+}
+.contact p, .about p, .action-call p{
+    padding: 2rem;
+    line-height: 25px;
+}
+
+.about{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(backimage.jpg);
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.credits{
+    padding: 2rem;
+    color: white;
+    background-color: black;
+    padding-top: 2rem;
+}
+
+@media  screen and (min-width:700px) {
+    .company-name p{
+        width: 50%;
+        float: left;
+    }
+    .cleaner{
+        clear: both;
+    }
+}
+
+@media  screen and (min-width: 700px){
+    .service{
+        width: 30%;
+        float: left;
+    }
+    .cleaner{
+        clear: both;
+    }
+}
+@media screen and (min-width: 600px) {
+    .action-call{
+        width: 50%;
+        float: left;
+    }
+    .cleaner{
+        clear: both;
+    }
+}
+
